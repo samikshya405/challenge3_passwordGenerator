@@ -1,0 +1,54 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body{
+  min-height: 100vh;
+  background-color: #24232b;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.box{
+  width: 500px;
+  margin: auto;
+}
+.p-box{
+  height: 50px;
+  background-color: #303d52;
+}
+
+.generator{
+  /* min-height: 500px; */
+  background-color: #303d52;
+}
+
+
+
+
+.custom-checkbox .form-check-input:checked {
+  background-color: #28a745; 
+  border-color: #28a745;
+}
+
+.strength{
+  height: 50px;
+  background-color: rgba(39, 39, 39, 0.709);
+}
+.s-box{
+  width: 10px;
+  border:1px solid white;
+  height: 100%;
+}
+
+@media (max-width:768px){
+  .box{
+    width: 100%;
+  }
+}
